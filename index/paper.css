@@ -1,0 +1,163 @@
+header {
+    background-color: #1380bc;
+}
+
+.card {
+    border: none;
+}
+
+#logo {
+    margin-top: 17px;
+}
+
+#name {
+    margin-top: 17px;
+    margin-left: 18px;
+    color: yellow;
+}
+
+#name .p1 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.header-right-top {
+    margin-top: 18px;
+}
+
+.col-8 .search {
+    margin-left: 270px;
+
+}
+
+.list {
+    margin-left: -33px;
+    font-size: 18px;
+}
+
+.part1 {
+    margin-top: 10px;
+}
+
+.part1 .content-left {
+    height: 417px;
+}
+
+.part1 .content-left .card-text {
+    position: absolute;
+}
+
+.part1 .card-body {
+    font-size: 13px;
+    padding: 0px;
+}
+
+.part1 .test {
+    font-size: 15px;
+    ;
+}
+
+
+
+/* .part1 .content-right {
+    height: 417px;
+} */
+
+.part1 .img-right {
+    height: 171px;
+}
+
+.part2 {
+    width: 1171px;
+    height: 158px;
+    background-color: #93cded;
+    display: flex;
+}
+
+.part2 .img1 {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.part2 .content {
+    margin-top: 25px;
+    margin-top: 25px;
+}
+
+.part2 .h3 {
+    color: blue;
+    margin-top: -15px;
+
+}
+
+.part2 .content1 {
+    margin-top: -15px;
+    font-size: 22px;
+    color: blue;
+}
+
+.part3 .content-left {
+    font-size: 18px;
+    color: #4285ab;
+}
+
+.part3 .content-right {
+    line-height: 27px;
+}
+
+.part3 .content-right a {
+    color: #4285ab;
+    margin-left: 301px;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.part3 .col-6 .key {
+    background-color: lightgray;
+    object-fit: cover;
+    width: 325px;
+    position: absolute;
+}
+
+.part3 .col-3 {
+    width: 325px;
+}
+
+.part3 .divide-text {
+    border: solid 1px;
+    color: lightgray;
+}
+
+.part3 .col-3 .card-text {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+@media(max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    header {
+        width: 50%;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    .part1,
+    .part2,
+    .part3,
+    .part4,
+    .part5,
+    .part6,
+    .part7,
+    .part8,
+    .part9 {
+        flex-direction: column;
+        display: flex;
+    }
+
+
+}
