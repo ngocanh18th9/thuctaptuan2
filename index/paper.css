@@ -1,24 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+
 header {
     background-color: #1380bc;
 }
 
-.card {
-    border: none;
-}
-
-#logo {
+#navbar {
+    line-height: 20px;
     margin-top: 17px;
-}
-
-#name {
-    margin-top: 17px;
-    margin-left: 18px;
     color: yellow;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.part1 .card {
+    border: none;
+}
+
+
+
 #name .p1 {
     font-size: 25px;
-    margin-left: 10px;
+    text-align: center;
 }
 
 .header-right-top {
@@ -30,9 +39,99 @@ header {
 
 }
 
+.search form>div {
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.search form button {
+    background-color: rgb(0, 0, 0, 0.3);
+    border: none;
+    height: auto;
+}
+
+.search input {
+    height: auto;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 13px;
+}
+
 .list {
-    margin-left: -33px;
-    font-size: 18px;
+    /* margin-right: 12px; */
+    font-size: 13px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+
+.cotdoc .row {
+    margin-left: 2px;
+    padding-right: 3px;
+}
+
+.cotdoc .title {
+    font-size: 20px;
+    color: red;
+}
+
+.cotdoc1 {
+    border: solid 4px #1380bc;
+    height: 548px;
+}
+
+.cotdoc1 .divide {
+    border: solid 1px;
+    color: rgb(53, 52, 52);
+    margin-top: 20px;
+
+}
+
+.cotdoc1 .card-body {
+    line-height: 18px;
+    font-weight: 200px;
+}
+
+.cotdoc-card-text {
+    font-size: 13px;
+}
+
+.cotdoc1-text {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.cotdoc-2 {
+    padding-left: 2px;
+}
+
+.middle {
+    height: 124px;
+}
+
+.first {
+    height: 212px;
+}
+
+.bot1 {
+    height: 134px;
+}
+
+.bot2 {
+    height: 301px;
+}
+
+.cotdoc2 img {
+    width: 100%;
+    height: 100%;
 }
 
 .part1 {
@@ -43,18 +142,16 @@ header {
     height: 417px;
 }
 
-.part1 .content-left .card-text {
-    position: absolute;
-}
+
 
 .part1 .card-body {
     font-size: 13px;
     padding: 0px;
 }
 
-.part1 .test {
-    font-size: 15px;
-    ;
+.part1 .test b {
+    font-size: 21px;
+    line-height: 22px;
 }
 
 
@@ -67,17 +164,17 @@ header {
     height: 171px;
 }
 
-.part2 {
-    width: 1171px;
-    height: 158px;
-    background-color: #93cded;
-    display: flex;
+.part2 .row2 {
+    height: 343px;
 }
 
-.part2 .img1 {
-    margin-top: 25px;
-    margin-left: 15px;
+.part2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
+
 
 .part2 .content {
     margin-top: 25px;
@@ -97,8 +194,8 @@ header {
 }
 
 .part3 .content-left {
-    font-size: 18px;
-    color: #4285ab;
+    font-size: 23px;
+    color: rgb(15, 108, 189);
 }
 
 .part3 .content-right {
@@ -112,12 +209,44 @@ header {
     line-height: 27px;
 }
 
-.part3 .col-6 .key {
+.part3 .divide {
+    border: 1px lightgray;
+}
+
+.part3 .row1 {
+    padding-bottom: 5px;
+}
+
+.part3 .col-6 .row2 {
+    height: 365px;
+    background-color: lightgray;
+}
+
+
+.part3 .row2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.part3 .col-6 .row-text {
+    margin-top: 3px;
+    text-align: center;
+    width: 93%;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+    bottom: 1px;
+    height: 43px;
+
+}
+
+/* .part3 .col-6 .key {
     background-color: lightgray;
     object-fit: cover;
     width: 325px;
     position: absolute;
-}
+} */
 
 .part3 .col-3 {
     width: 325px;
@@ -133,31 +262,206 @@ header {
     font-size: 13px;
 }
 
-@media(max-width: 1023px) {
-    .hide-on-mobile-tablet {
-        display: none;
-    }
-
-    header {
-        width: 50%;
-    }
-
-    .column {
-        width: 50%;
-    }
-
-    .part1,
-    .part2,
-    .part3,
-    .part4,
-    .part5,
-    .part6,
-    .part7,
-    .part8,
-    .part9 {
-        flex-direction: column;
-        display: flex;
-    }
 
 
+/* .part3 .row3 .content-right-row3 {
+    width: 355px;
+    height: 175px;
+} */
+
+.row2-img,
+.row3-img {
+
+    height: 321px;
+}
+
+.row2-text {
+    font-size: 13px;
+
+}
+
+.row2-img img,
+.row3-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.row2-img-right,
+.row3-img-right {
+
+    height: 110px;
+}
+
+.row2-img-right img,
+.row3-img-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.mota p {
+    font-size: 13px;
+    /* line-height: 20px; */
+}
+
+/* .part3 .img-right {
+    width: 165px;
+    height: 112px;
+}  */
+.row4 .content-left p {
+    font-size: 20px;
+    color: rgb(15, 108, 189);
+}
+
+.row4 .card-img-top {
+    padding-bottom: 10px;
+}
+
+.media {
+
+    background-color: rgb(240, 240, 173);
+}
+
+.part4 {
+    margin-top: 50px;
+}
+
+.media iframe {
+    width: 553px;
+    height: 415px;
+    object-fit: cover;
+
+}
+
+
+.media .title {
+    margin-top: 15px;
+}
+
+
+.media .test-main {
+    position: absolute;
+    color: white;
+    bottom: 33px;
+    font-size: 14px;
+    margin-left: 5px;
+
+}
+
+.media-img {
+
+    height: 198px;
+}
+
+.media-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media .test {
+    position: absolute;
+    color: white;
+    bottom: 0px;
+    font-size: 13px;
+
+}
+
+.row4 p {
+    font-size: 13px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.media li a {
+    line-height: 28px;
+    color: rgb(15, 108, 189)
+}
+
+.media .video {
+    width: 271px;
+    height: 171px;
+}
+
+.card {
+    border: 0;
+}
+
+.part5 .title {
+    color: rgb(15, 108, 189);
+    font-size: 23px;
+
+}
+
+.part5 .card-img-top {
+    width: 271px;
+    height: 171px;
+}
+
+.part5 .card-body {
+    padding: 0px;
+}
+
+.part5 .divide-text {
+    border: solid 1px;
+    color: lightgray;
+    margin-top: 20px;
+}
+
+.footer {
+    color: white;
+}
+
+.dropdown {
+    border: 1px;
+}
+
+.dropdown a {
+    color: white;
+}
+
+.footer .row-first {
+    background-color: #1380bc;
+}
+
+.footer .row-first .info-1 {
+    margin-top: 15px;
+    margin-left: -13px;
+
+}
+
+.footer .row-first .info-2 {
+    margin-top: 15px;
+    margin-left: 296px;
+
+}
+
+.footer .row-first .info-2 p {
+    padding-left: 3px;
+    font-size: 18px;
+}
+
+.footer .row-second {
+    background-color: #0a547c;
+    font-size: 18px;
+    text-align: center;
+}
+
+.row-second .text-main {
+    text-align: center;
+}
+
+.row-second p {
+    width: 100%;
+}
+
+#dropdownMenuButton2 {
+    border: 1px;
+}
+
+.hr {
+    color: #073955;
 }
