@@ -218,6 +218,7 @@ header {
 }
 
 .part3 .col-6 .row2 {
+    position: relative;
     height: 365px;
     background-color: lightgray;
 }
@@ -231,7 +232,7 @@ header {
 .part3 .col-6 .row-text {
     margin-top: 3px;
     text-align: center;
-    width: 93%;
+    width: 100%;
     color: white;
     font-size: 16px;
     position: absolute;
