@@ -26,8 +26,9 @@ header {
 
 
 #name .p1 {
-    font-size: 25px;
+    font-size: 34px;
     text-align: center;
+    font-weight: 700px;
 }
 
 .header-right-top {
@@ -150,7 +151,7 @@ header {
 }
 
 .part1 .test b {
-    font-size: 21px;
+    font-size: 19px;
     line-height: 22px;
 }
 
@@ -238,9 +239,11 @@ header {
     position: absolute;
     background-color: rgb(0, 0, 0, 0.5);
     bottom: 1px;
-    height: 43px;
+    height: 28px;
 
 }
+
+
 
 /* .part3 .col-6 .key {
     background-color: lightgray;
@@ -335,7 +338,7 @@ header {
 
 
 .media .title {
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 
@@ -343,27 +346,36 @@ header {
     position: absolute;
     color: white;
     bottom: 33px;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 5px;
+    bottom: 10px;
+    font-weight: 300;
+
 
 }
 
 .media-img {
 
     height: 198px;
+    position: relative;
+
 }
 
 .media-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
 }
 
 .media .test {
+    width: 100%;
     position: absolute;
     color: white;
     bottom: 0px;
     font-size: 13px;
+
+    background-image: linear-gradient(to top, rgb(44, 42, 42), rgb(187 183 183 / 6%));
 
 }
 
@@ -447,7 +459,7 @@ header {
 
 .footer .row-second {
     background-color: #0a547c;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -465,4 +477,41 @@ header {
 
 .hr {
     color: #073955;
+}
+
+.card:hover {
+    outline-color: lightgray;
+    outline-style: solid;
+}
+
+.media-img:hover {
+    outline-color: lightgray;
+    outline-style: solid;
+}
+
+/* .card-img-top:hover {
+    outline-color: lightgray;
+    outline-style: solid;
+} */
+
+.row2-img:hover {
+    outline-color: lightgray;
+    outline-style: solid;
+}
+
+.row2-img-right:hover {
+    outline-color: lightgray;
+    outline-style: solid;
+}
+
+.col-4:hover {
+    outline-color: lightgray;
+    outline-style: solid;
+}
+
+.card-img:hover {
+
+    outline-color: lightgray;
+    outline-style: solid;
+
 }
